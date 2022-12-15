@@ -1,0 +1,65 @@
+name: traveloo_dashboard
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # GetX
+  get: ^4.6.5
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
+  device_preview: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/fonts/WorkSans/
+
+  fonts:
+    - family: Work Sans
+      fonts:
+        - asset: assets/fonts/WorkSans/WorkSans-Regular.otf
+
+        - asset: assets/fonts/WorkSans/WorkSans-Thin.otf
+          weight: 100
+
+        - asset: assets/fonts/WorkSans/WorkSans-ExtraLight.otf
+          weight: 200
+
+        - asset: assets/fonts/WorkSans/WorkSans-Light.otf
+          weight: 300
+
+        - asset: assets/fonts/WorkSans/WorkSans-Medium.otf
+          weight: 500
+
+        - asset: assets/fonts/WorkSans/WorkSans-SemiBold.otf
+          weight: 600
+
+        - asset: assets/fonts/WorkSans/WorkSans-Bold.otf
+          weight: 700
+
+        - asset: assets/fonts/WorkSans/WorkSans-ExtraBold.otf
+          weight: 800
+
+        - asset: assets/fonts/WorkSans/WorkSans-Black.otf
+          weight: 900
